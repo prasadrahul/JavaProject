@@ -39,3 +39,66 @@ More over we are depending on primitive data types which are non objects.
  because we can represent both positive and negative numbers
  
  
+### 1. bytes 
+
+    * Size : 1 byte (8 bit)
+    * Max Value : +127
+    * Min Value : -128
+    * Range : -128 to + 127
+
+
+#### 8-bit representaion
+
+             64 + 32 +16 +8 + 4 + 2 + 1 = 127
+        
+        | X | 1 | 1 | 1 | 1 | 1 | 1 | 1 |   
+          |
+         MSB    
+        (Most Significant Bit )
+
+       
+       * MSB acts as sign bit and remaing 7 bit represents value
+       
+       * First bit (MSB) is reserved for sign.
+       
+#### How to represent 128 using this system ? 
+
+        * To represent Negative number we use 2's complement form of that number and first bit represnt sign.
+   
+#### Possible Compile time error   
+
+           byte b = 128 ;       //#java: incompatible types: possible lossy conversion from int to byte
+           byte b = 12.5 ;      //#java: incompatible types: possible lossy conversion from double to byte
+           byte b = true ;      //#java: incompatible types: boolean cannot be converted to byte
+           byte b = "rahul" ;   //#java: incompatible types: java.lang.String cannot be converted to byte
+
+#### Where byte data type is the best choice ?
+  
+            If you want to handle data in the terms of streams either from the File or from the Network 
+            ( beacause file & network supported form is byte ) .
+            
+            There are two type of streams-
+                    * Charcheter streams
+                    * Byte streams
+                    
+#### Example :-
+```
+                    /** File Output Stream- Write Method need byte array type data Only to write in a file */
+                    
+                    try {
+                        FileOutputStream fout=new FileOutputStream("../testout.txt");
+                        String s="Java byte Concept ..";
+                        byte b[]=s.getBytes();      // converting string into byte array
+                        fout.write(b);
+                        fout.close();
+                        System.out.println("Success...");
+            
+                    } catch (FileNotFoundException e) {
+                        e.printStackTrace();
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+```                    
+                    
+
+### 2. Short                    
