@@ -1,7 +1,7 @@
 ### Identifiers
 
 A name in java Program is called as __identifiers__, 
-Wich can be used for identification purpose. It can be  
+Which can be used for identification purpose. It can be  
  
     * Class name  or
     * Method name or
@@ -142,7 +142,7 @@ Rules for __identifiers__ :
 
         * void
 
- Keywords that are unsed ( 2 )        
+ Keywords that are unused ( 2 )        
         
         * goto : uses of goto create problem in old lanuge that why sun people baned this keyword in java
         * const : use final instead of const
@@ -160,7 +160,8 @@ Rules for __identifiers__ :
 ### Conclusion
 ```  
 1. All 53 reserved words in java contains only lower case alphabet symbol      
-2. In Java there new keyword and no Delete keyword beacuse Destruction of useless object is responsibility of Garbage collector
+2. In Java there is **new** keyword and no **delete** keyword beacuse Destruction of useless object is 
+    responsibility of Garbage collector
 3. enum (1.5 V) , assert (1.4 V) and strictfp (1.2 V) are new keywords in java introduced later.
 4. Confusing keywords 
             * strictfp ( not strictFp ) 
