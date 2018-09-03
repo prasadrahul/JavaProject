@@ -1,6 +1,6 @@
-package ocjp.java.fundamentals.datatypes;
+package ocjp.java.fundamentals.chapter_002;
 
-public class DataTypes
+public class C_02_DataTypes
 {
     public static void main(String[] args)
     {

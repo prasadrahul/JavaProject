@@ -1,6 +1,6 @@
-package ocjp.java.fundamentals.identifiers_reservedwords;
+package ocjp.java.fundamentals.chapter_001;
 
-public class _01_Identifiers
+public class C_01_Identifiers_ReserveKeywords
 {
     public static void main(String[] args)
     {
