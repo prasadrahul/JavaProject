@@ -1,4 +1,4 @@
-### Identifiers
+### <span style="color:darkgreen">Identifiers</span>
 
 A name in java Program is called as __identifiers__, 
 Which can be used for identification purpose. It can be  
@@ -49,7 +49,7 @@ Rules for __identifiers__ :
         it reduces readablity and creats confustion.
         
    
-### Reserved word
+### <span style="color:darkgreen">Reserved Words</span>
 
 ```
                     Reserved word (53)
@@ -157,7 +157,7 @@ Rules for __identifiers__ :
         
         * enum ( 1.5 V ) : used to difiened a group of named constant
 
-### Conclusion
+### <span style="color:darkgreen">Conclusion</span>
 ```  
 1. All 53 reserved words in java contains only lower case alphabet symbol      
 2. In Java there is **new** keyword and no **delete** keyword beacuse Destruction of useless object is 

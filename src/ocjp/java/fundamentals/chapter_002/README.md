@@ -1,4 +1,4 @@
-### Data Types
+### <span style="color:darkgreen">Data Types</span>
 
 1. In __Java__ every variable and every expression has some time
 2. Each and every data type is clearly defined.
