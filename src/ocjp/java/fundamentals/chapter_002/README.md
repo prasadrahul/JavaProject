@@ -63,6 +63,8 @@ More over we are depending on primitive data types which are non objects.
        
 #### How to represent 128 using this system ? 
 
+        * Positive Number will be represented directly in the meomry
+        
         * To represent Negative number we use 2's complement form of that number and first bit represnt sign.
    
 #### Possible Compile time error   
@@ -101,4 +103,40 @@ More over we are depending on primitive data types which are non objects.
 ```                    
                     
 
-### 2. Short                    
+### 2. Short
+
+    * Most rarely used data type in Java
+    * Size : 2 byte (16 bit)
+    * Max Value : +32767
+    * Min Value : -32768
+    * Range : (-2^15) to + (2^15-1)  
+    
+    
+**Short** data type is best suitable for 16-bit processor like 8085 processor 
+because in those  type of processor data will be present in 16 bit style.
+( Due to outdated processor type this data type is outdated) 
+
+So when we use Short data type read/write process is quite efficient.
+
+
+### 3. int
+
+    * Most commanly used data type in Java
+    * Size : 4 byte (32 bit)
+    * Max Value : +2147483647
+    * Min Value : -2147483648
+    * Range : (-2^31) to + (2^31-1)
+    
+
+### 4. long
+
+    * Size : 8 byte (64 bit)
+    * Range : (-2^63) to + (2^63-1)                    
+    
+
+Note: All the above data type ( Byte/Short/Int/Long) meant for representing values. 
+If we want to represent floating point values the we should go for floating point data types.
+
+## Floating Point Data Type:
+
+    

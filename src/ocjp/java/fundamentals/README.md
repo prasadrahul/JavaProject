@@ -1,12 +1,12 @@
 ## Java Fundamentals Syllabus
 
-- [**Identifiers**](https://en.wikipedia.org/wiki/Java_syntax#Identifier)
+- [**Identifiers**](https://github.com/prasadrahul/JavaProject/tree/master/src/ocjp/java/fundamentals/chapter_001)
         
-- [**Reserved Words**](https://en.wikipedia.org/wiki/Java_syntax#Keywords)
+- [**Reserved Words**](https://github.com/prasadrahul/JavaProject/tree/master/src/ocjp/java/fundamentals/chapter_001)
         
-- [**Data Types**]()
+- [**Data Types**](https://github.com/prasadrahul/JavaProject/tree/master/src/ocjp/java/fundamentals/chapter_002)
         
-- [**Literals**](https://en.wikipedia.org/wiki/Java_syntax#Literals)
+- [**Literals**]()
        
 - [**Arrays**]()
         
@@ -19,3 +19,7 @@
 - [**Command Line agruments**]()
         
 - [**Java Coding Standards**]()
+
+
+
+[**Extra Reads**](https://en.wikipedia.org/wiki/Java_syntax)
