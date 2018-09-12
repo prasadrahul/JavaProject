@@ -39,6 +39,7 @@ public class C_02_DataTypes {
 
 
 
+
         Short s1 = 32767 ;
 //        Short s1 = 32768 ; // java: incompatible types: int cannot be converted to java.lang.Short
 //        Short s1 = 10.5 ;  // java: incompatible types: double cannot be converted to java.lang.Short
